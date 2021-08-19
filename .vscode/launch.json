@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Node Functions (func start)",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "preLaunchTask": "func: host start"
+    },
+    {
+      "name": "Attach to Node Functions (npm start)",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "preLaunchTask": "npm start (functions)"
+    }
+  ]
+}
